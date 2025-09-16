@@ -1,6 +1,21 @@
-# CatchUp
+# CatchUp (catch-up)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.1.
+## Overview
+This is a news application for catch-up on the latest news articles from various sources. It is built using Angular and TypeScript, and it fetches news data from the NewsAPI.org.
+
+## Features
+- Fetches news articles from NewsAPI.org.
+- Implements Material Design for a modern and responsive UI.
+- Illustrates HTTP requests and data handling in Angular.
+- Includes i18n support for english and spanish languages.
+- Applies Domain-Driven Design (DDD) principles for better code organization and maintainability.
+- Implements state management using Angular signals for efficient data handling and reactivity.
+
+## User Stories
+The user stories can be found in the [docs/user-stories.md](docs/user-stories.md) file.
+
+## Class Diagram
+The class diagram can be found in the [docs/class-diagram.puml](docs/class-diagram.puml) file.
 
 ## Development server
 
