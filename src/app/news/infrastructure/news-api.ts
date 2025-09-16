@@ -12,12 +12,12 @@ import {ArticleAssembler} from './article-assembler';
 
 @Injectable({providedIn: 'root'})
 export class NewsApi {
-  private baseUrl = environment.newsProviderApiBaseUrl;
-  private newsEndpoint = environment.newsProviderNewsEndpointPath;
+  private baseUrl         = environment.newsProviderApiBaseUrl;
+  private newsEndpoint    = environment.newsProviderNewsEndpointPath;
   private sourcesEndpoint = environment.newsProviderSourcesEndpointPath;
-  private apiKey = environment.newsProviderApiKey;
-  private http = inject(HttpClient);
-  private logoApi = inject(LogoApi);
+  private apiKey          = environment.newsProviderApiKey;
+  private http         = inject(HttpClient);
+  private logoApi       = inject(LogoApi);
 
   getSources(): Observable<Source[]> {
     return this.http.get<SourcesResponse>(`${this.baseUrl}${this.sourcesEndpoint}`, {
