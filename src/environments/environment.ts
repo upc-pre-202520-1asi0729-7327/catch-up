@@ -4,5 +4,5 @@ export const environment = {
   newsProviderNewsEndpointPath: '/top-headlines',
   newsProviderSourcesEndpointPath: '/top-headlines/sources',
   newsProviderApiKey: '',
-  logoProviderApiBaseUrl: 'https://logo.clearbit.com'
+  logoProviderApiBaseUrl: 'https://logo.clearbit.com/'
 };
